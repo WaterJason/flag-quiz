@@ -179,8 +179,7 @@ function App() {
 
         <footer className="geo">
           <p>
-            Flag Quiz is a free browser game where you guess countries from
-            their flags — not a study guide.
+            Flag Quiz is a free browser game where you guess countries from their flags — not a study guide.
           </p>
         </footer>
       </main>

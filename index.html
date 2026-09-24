@@ -13,7 +13,11 @@
     <link rel="canonical" href="https://flag-quiz-gray.vercel.app/" />
   </head>
   <body>
-    <div id="root"></div>
+    <!-- Static SEO/GEO shell in first HTML; React replaces #root with matching H1 + GEO -->
+    <div id="root">
+      <h1>Flag Quiz</h1>
+      <p>Flag Quiz is a free browser game where you guess countries from their flags — not a study guide.</p>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
